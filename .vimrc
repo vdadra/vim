@@ -7,6 +7,7 @@ set nocompatible
 behave xterm
 filetype plugin indent on
 syntax on
+set ic
 
 " Source a local vimrc if it exists
 if filereadable(expand("$HOME/.vimrc.local"))

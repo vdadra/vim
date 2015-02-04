@@ -14,10 +14,9 @@ Plugin 'gmarik/Vundle.vim'
 Plugin 'rking/ag.vim'
 Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
-Plugin 'L9'
-Plugin 'git://git.wincent.com/command-t.git'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
-Plugin 'MarcWeber/vim-addon-manager'
+" Plugin 'Valloric/YouCompleteMe'
+Plugin 'scrooloose/nerdtree'
 " Plugin 'user/L9', {'name': 'newL9'}
 "Plugin 'file:///home/gmarik/path/to/plugin'
 

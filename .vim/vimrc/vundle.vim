@@ -16,6 +16,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'tpope/vim-fugitive'
 Plugin 'rstacruz/sparkup', {'rtp': 'vim/'}
 " Plugin 'Valloric/YouCompleteMe'
+Plugin 'mathiasl/DoxygenToolkit'
 Plugin 'scrooloose/nerdtree'
 " Plugin 'user/L9', {'name': 'newL9'}
 "Plugin 'file:///home/gmarik/path/to/plugin'

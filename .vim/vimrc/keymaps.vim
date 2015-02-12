@@ -2,10 +2,10 @@
 :nmap \t :set invpaste paste?<CR>
 :nmap \q :set invhlsearch hlsearch?<CR>
 
-"Tabs
-:nmap tN :tabnew<CR>
-:nmap tn :tabnext<CR>
-:nmap tp :tabprev<CR>
+"paste mode
+nnoremap <F2> :set invpaste paste?<CR>
+set pastetoggle=<F2>
+set showmode
 
 "folds
 :nmap foldmanual :set foldmethod=manual<CR>
@@ -14,3 +14,8 @@
 
 "NerdTree
 :nmap <C-o> :NERDTreeToggle<CR>
+
+"map <C-o> :browse confirm e<Return>
+map <C-C> :e %:r.cpp<CR>
+map <C-H> :e %:r.h<CR>
+map <C-I> :e %:r.hpp<CR>

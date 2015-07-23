@@ -2,11 +2,11 @@ execute pathogen#infect()
 
 source $HOME/.vim/vimrc/header.vim
 source $HOME/.vim/vimrc/doxygen.vim
-source $HOME/.vim/vimrc/keymaps.vim
 source $HOME/.vim/vimrc/tab_spaces.vim
 source $HOME/.vim/vimrc/tabs.vim
-source $HOME/.vim/vimrc/folds.vim
+"source $HOME/.vim/vimrc/folds.vim
 source $HOME/.vim/vimrc/search.vim
+source $HOME/.vim/vimrc/keymaps.vim
 
 set nocompatible
 behave xterm
